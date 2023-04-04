@@ -58,4 +58,36 @@ top: -10%;
 right: 0;
 }
 
+@media screen and (max-width: 850px) {
+  .Destination{
+    margin: 4rem 2rem;
+  }
+
+  .first-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .first-des-reverse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+
+  .des-text{
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  .image img {
+    height: 250px;
+  }
+  
+}
  
